@@ -6,19 +6,36 @@ public class PerimeterOfTriangle {
 
         Scanner sideLength = new Scanner(System.in);
 
-        System.out.println("Enter the length of side1: ");
-        double side1 = sideLength.nextDouble();
+        double side1, side2, side3;
 
-        System.out.println("Enter the length of side2: ");
-        double side2 = sideLength.nextDouble();
-
-        System.out.println("Enter the length of side3: ");
-        double side3 = sideLength.nextDouble();
-
+        while (true) {
+            System.out.println("Enter the length of side1: ");
+            side1 = Double.parseDouble(sideLength.next());
+            if (side1 > 0) {
+                break;
+            }
+            System.out.println("Invalid input! Please enter a positive number for the side.");
+        }
+        while (true) {
+            System.out.println("Enter the length of side2: ");
+            side2 = Double.parseDouble(sideLength.next());
+            if (side2 > 0) {
+                break;
+            }
+            System.out.println("Invalid input! Please enter a positive number for the side.");
+        }
+        while (true) {
+            System.out.println("Enter the length of side3: ");
+            side3 = Double.parseDouble(sideLength.next());
+            if (side3 > 0) {
+                break;
+            }
+            System.out.println("Invalid input! Please enter a positive number for the side.");
+        }
         sideLength.close();
 
-        double perimeter = side1 + side2 + side3;
 
+            double perimeter = side1 + side2 + side3;
         System.out.println("Perimeter of the triangle is " + perimeter);
+        }
     }
-}
