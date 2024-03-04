@@ -19,6 +19,6 @@ public class MinutesIntoYearsAndDays {
 
         double days = remainingMinutes / minutesInDay;
 
-        System.out.println((int) minutes + " minutes is approximately " + (int) years + " years and " + (int) days + " days.");
+        System.out.println((int) minutes + " minutes are approximately " + (int) years + " years and " + (int) days + " days.");
     }
 }
