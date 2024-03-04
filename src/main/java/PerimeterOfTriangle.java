@@ -36,6 +36,6 @@ public class PerimeterOfTriangle {
 
 
             double perimeter = side1 + side2 + side3;
-        System.out.println("Perimeter of the triangle is " + perimeter);
+        System.out.printf("Perimeter of the triangle is %.2f\n", perimeter);
         }
     }
