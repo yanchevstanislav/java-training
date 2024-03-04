@@ -1,0 +1,7 @@
+### Windows OS ###
+/git-demo-project-env.iml
+/.idea/*
+
+### UNIX OS ###
+\git-demo-project-env.iml
+\.idea\*
