@@ -1,9 +1,10 @@
 ### Windows OS ###
 /git-demo-project-env.iml
 /.idea/*
-/out/
+/.out/*
 
 ### UNIX OS ###
 \git-demo-project-env.iml
 \.idea\*
-\out\
+\.out\*
+
