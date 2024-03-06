@@ -1,4 +1,4 @@
-package main.java;
+package main.java.homework.l2;
 
 public class StoreYourName {
     public static void main(String[] args) {

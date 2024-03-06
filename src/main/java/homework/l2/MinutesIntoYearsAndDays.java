@@ -1,4 +1,4 @@
-package main.java;
+package main.java.homework.l2;
 
 import java.util.Scanner;
 public class MinutesIntoYearsAndDays {
