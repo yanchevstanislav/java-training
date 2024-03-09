@@ -35,7 +35,7 @@ public class CalculatingRevenue {
         double discountRate;
         if (quantity < 100) {
             discountRate = 0.0;
-        } else if (quantity >= 100 && quantity <= 120) {
+        } else if (quantity <= 120) {
             discountRate = 0.15;
         } else {
             discountRate = 0.20;
