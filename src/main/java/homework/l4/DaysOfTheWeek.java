@@ -1,4 +1,4 @@
-package main.java.homweork.l4;
+package main.java.homework.l4;
 
 import java.util.Scanner;
 
