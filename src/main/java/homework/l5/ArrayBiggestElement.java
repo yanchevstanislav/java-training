@@ -1,7 +1,5 @@
 package main.java.homework.l5;
 
-import java.sql.SQLOutput;
-
 public class ArrayBiggestElement {
     public static void main(String[] args) {
         
