@@ -14,7 +14,7 @@ public class DynamicRowsMatrix {
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                System.out.print("Enter the desired number for position (" + (i + 1) + "," + (j + 1) + "): ");
+                System.out.print("Enter the desired number for position [" + (i + 1) + "][" + (j + 1) + "]: ");
                 matrix[i][j] = scanner.nextInt();
             }
 
